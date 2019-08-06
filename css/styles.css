@@ -46,5 +46,14 @@ body {
 .intro {
   background-color: #c7eef0;
   text-shadow: 4px 4px 5px rgba(150, 150, 150, 0.67);
-
+  height: 700px;
+}
+.footer {
+  position:absolute;
+  bottom:0;
+  background-color: blue;
+  width: 97%;
+  text-align: center;
+  padding: 15px;
+  color: white;
 }
