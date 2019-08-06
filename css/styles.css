@@ -1,6 +1,7 @@
 .topnav {
   overflow: hidden;
   background-color: blue;
+  border-radius: 25px;
 }
 
 .topnav a {
@@ -27,16 +28,19 @@
 body {
   text-align:center;
   background-color: #abccf5;
+  border-radius: 25px;
+  padding: 1% 5%;
 }
 
 .header_theme {
-  height: 15%;
-  padding: 7% 5%;
+  height: 40%;
+  padding: 1% 5%;
   background-image: url("../img/hawaii.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% 100%;
   color: white;
+  border-radius: 25px;
 }
 
 .header_theme h1, h3{
@@ -47,13 +51,15 @@ body {
   background-color: #c7eef0;
   text-shadow: 4px 4px 5px rgba(150, 150, 150, 0.67);
   height: 700px;
+  border-radius: 25px;
 }
 .footer {
   position:absolute;
   bottom:0;
   background-color: blue;
-  width: 97%;
+  width: 88.8%;
   text-align: center;
-  padding: 15px;
+  padding: inherit;
   color: white;
+  border-radius: 25px;
 }
