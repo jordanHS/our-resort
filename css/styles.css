@@ -8,15 +8,43 @@
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
+  text-decoration: none;
   font-size: 16px;
 }
 
 .topnav a:hover {
   background-color: #ddd;
   color: black;
+  font-weight: bolder;
 }
 
 .topnav a.active {
   background-color: #4CAF50;
   color: white;
+  font-weight: bolder;
+}
+
+body {
+  text-align:center;
+  background-color: #abccf5;
+}
+
+.header_theme {
+  height: 15%;
+  padding: 7% 5%;
+  background-image: url("../img/hawaii.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  color: white;
+}
+
+.header_theme h1, h3{
+  font-size: 30px;
+  text-shadow: 3px 3px 5px #30542a;
+}
+.intro {
+  background-color: #c7eef0;
+  text-shadow: 4px 4px 5px rgba(150, 150, 150, 0.67);
+
 }
